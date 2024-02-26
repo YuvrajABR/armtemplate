@@ -104,7 +104,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2018-05-01",
       "properties": {
-        "mode": "Incremental",
+        "mode": "complete",
         "templateLink": {
           "uri": "[variables('functionAppTemplateLink')]",
           "contentVersion": "1.0.0.0"
