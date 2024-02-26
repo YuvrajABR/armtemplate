@@ -11,7 +11,7 @@
     },
     "eventHubName": {
       "type": "string",
-      "defaultValue": "activity-eventhub",
+      "defaultValue": "activity-logs",
       "metadata": {
         "description": "Name of Event Hub"
       }
@@ -25,7 +25,7 @@
     },
     "functionName": {
       "type": "string",
-      "defaultValue": "datadog-activity-logs",
+      "defaultValue": "activity-logs",
       "metadata": {
         "description": "The name of the function."
       }
@@ -58,7 +58,7 @@
     },
     "datadogSite": {
       "type": "string",
-      "defaultValue": "app.datadoghq.eu",
+      "defaultValue": "datadoghq.com",
       "metadata": {
         "description": "Datadog site to send logs"
       }
